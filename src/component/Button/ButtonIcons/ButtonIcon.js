@@ -1,13 +1,15 @@
 import { Component } from "react"
 
 
-class ButtonIcons extends Component{
+export default class ButtonIcons extends Component{
+
+ 
   render(){
-   
     
+   
     const {text}=this.props
     return (  
-      <button className="buttons"  >{text}</button>
+      <button className="buttons" onClick={this.onBtn}  >{text}</button>
 )
 
   }
@@ -19,4 +21,3 @@ const ButtonIcons=({text})=>{
         <button className="buttons" >{text}</button>
   )
 }*/
-export default ButtonIcons

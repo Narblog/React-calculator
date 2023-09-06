@@ -1,11 +1,12 @@
 import { Component } from "react"
+
 import "./header.css"
 
 
 class Header extends Component{
     render(){
         return(
-            <input className="input" type="text" />
+            <input className="input" value="" type="text" />
         ) 
     }
 }
